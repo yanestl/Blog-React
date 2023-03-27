@@ -1,0 +1,71 @@
+/* ARTICLE */
+.custom-btn {
+  background-image: linear-gradient(
+    to bottom right,
+    #384679,
+    #283153
+  ); 
+  color: white;
+}
+
+.custom-btn:hover {
+  background-image: linear-gradient(
+    to bottom right,
+    #6f42c1,
+    #6f42c1
+  ); 
+  border-color: #6f42c1;
+}
+
+
+/* ARTICLESLIST */
+
+/* Hover on List of Articles */
+.article:hover {
+  transform: translateY(-0.15rem) scale(1.04);
+}
+
+.shadow {
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  margin: 0.3rem;
+}
+
+.marginSearchBar {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.box-shadow {
+  box-shadow: 10px -20px;
+}
+
+.border {
+  padding: 2rem;
+}
+
+.articlesList {
+  background-color: #f2f2f2;
+}
+
+/* PAGE HOME On scroll */
+
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+.reveal.active {
+  opacity: 1;
+  animation-duration: 1s;
+  animation-name: fade-bottom;
+}
+
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

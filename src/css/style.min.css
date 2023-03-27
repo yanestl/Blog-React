@@ -1,0 +1,11 @@
+.search input[type="text"]{
+    width: 67%!important;
+}
+
+p::first-letter{
+    text-transform: uppercase;
+  }
+
+a {
+      text-decoration: none;
+  }
